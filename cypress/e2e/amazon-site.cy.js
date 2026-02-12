@@ -6,6 +6,7 @@ describe('Amazon site test', () => {
       "And Click search icon",
       "And User open first Results item",
       "And Click 'Add to cart' button",
+      "And Click 'No thanks' button",
       "Then Validate if [id='nav-cart-count'] have text '1'"
     ])
 
