@@ -1,7 +1,7 @@
 describe('Amazon site test', () => {
   it('Add to cart', () => {
     cy.prompt([
-      "Given Page “https://www.amazon.com/” is open",
+      "Given Page “https://www.amazon.com” is open",
       "And A user search for 'ram ddr5 32gb'",
       "And Click search icon",
       "And User open first Results item",
