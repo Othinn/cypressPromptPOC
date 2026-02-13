@@ -10,7 +10,7 @@ npm install --save-dev cypress
 ```
 This will install Cypress.io as a development dependency.
 
-2. Open Cypress
+## 2. Open Cypress
 Initialize Cypress in your project:
 
 ```bash
@@ -21,10 +21,10 @@ or run in headless mode:
 ```bash
 npx cypress run
 ```
-3. Setup Cypress Cloud for AI-powered prompts
+## 3. Setup Cypress Cloud for AI-powered prompts
 To use AI-powered features and advanced reports, connect your project to Cypress Cloud.
 
-Step 1: Create a Cypress Cloud Project
+### Step 1: Create a Cypress Cloud Project
 Go to https://cloud.cypress.io
 
 Sign in with GitHub, GitLab, or your preferred provider
@@ -33,7 +33,7 @@ Create a new project
 
 Copy the generated Project ID
 
-Step 2: Add Project ID to Cypress Config
+### Step 2: Add Project ID to Cypress Config
 In your cypress.config.js:
 ```bash
 const { defineConfig } = require('cypress')
@@ -47,9 +47,9 @@ module.exports = defineConfig({
   },
 })
 ```
-Step 3: Add CYPRESS_RECORD_KEY to repository secrets in GitHub, GitLab, or your preferred provider
+### Step 3: Add CYPRESS_RECORD_KEY to repository secrets in GitHub, GitLab, or your preferred provider
 
-Step 4: Record Tests to Cypress Cloud
+### Step 4: Record Tests to Cypress Cloud
 Run tests in record mode:
 
 ```bash
